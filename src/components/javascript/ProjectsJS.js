@@ -1,8 +1,15 @@
+import NavBar from './components/NavBar';
+
+
 const ProjectsJS = () => {
 
 
     return(
-        <h1>I am the JS projects</h1>
+        <div>
+            <NavBar />
+            <h1>I am the JS projects</h1>
+        </div>
+        
     )
 }
 

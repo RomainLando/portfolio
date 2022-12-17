@@ -1,8 +1,14 @@
+import NavBar from './components/NavBar';
+
 const ProjectsPy = () => {
 
 
     return(
-        <h1>I ma the python project</h1>
+        <div>
+            <NavBar />
+            <h1>I ma the python project</h1>
+        </div>
+        
     )
 }
 
